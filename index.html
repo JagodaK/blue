@@ -10,14 +10,16 @@
 	<div class="content">
 		<nav id="top-nav">
 			<div class="top-nav-content">
-				<p>Subscribe to:</p>
-				<a href="#" class="subscribe-links">Posts</a>
-				<p class="vertical-separator">|</p>
-				<a href="#" class="subscribe-links">Comments</a>
-				<p class="vertical-separator">|</p>
-				<a href="#" class="subscribe-links">Email</a>
-				<input id="search" placeholder="Search keywords"></input>
-				<ul>
+				<ul id="list-left">
+					<li><p>Subscribe to:</p></li>
+					<li><a href="#" class="subscribe-links">Posts</a></li>
+					<li><p class="vertical-separator">|</p></li>
+					<li><a href="#" class="subscribe-links">Comments</a></li>
+					<li><p class="vertical-separator">|</p></li>
+					<li><a href="#" class="subscribe-links">Email</a></li>
+				</ul>
+				<input id="search" placeholder="Search keywords">
+				<ul id="list-right">
 					<li><a href="#" class="rss-icon"></a></li>
 					<li><a href="#" class="face-icon"></a></li>
 					<li><a href="#" class="twit-icon"></a></li>
@@ -29,11 +31,11 @@
 			<div id="logo-nav">
 				<a href="#" id="logo"><img src="images/logo.png"></a>
 				<ul>
-					<li><a href="#" class="menu-link">Home</a></li>
-					<li><a href="#" class="menu-link">About</a></li>
-					<li><a href="#" class="menu-link">Portfolio</a></li>
-					<li><a href="#" class="menu-link">Blog</a></li>
-					<li><a href="#" class="menu-link">Contact</a></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
 				</ul>
 			</div>
 		<div class="img-slide"></div>
@@ -116,14 +118,14 @@
 						<li><a href="#">Our Blog</a></li>
 						<li><a href="#">Submit a Site</a></li>
 						<li><a href="#">Contact Us</a></li>
-						<li><a href="#">Help & Terms</a></li>
+						<li><a href="#">Help &amp Terms</a></li>
 						<li><a href="#">Read FAQ</a></li>
 					</ul>
 				</div>
 				<div class="categories">
 					<h3 class="common">Categories</h3>
 					<ul>
-						<li><a href="#">Trends & Technology</a></li>
+						<li><a href="#">Trends &amp Technology</a></li>
 						<li><a href="#">Design Companies</a></li>
 						<li><a href="#">Design Freelancers</a></li>
 						<li><a href="#">Web Portfolios</a></li>
@@ -158,16 +160,28 @@
 
 		<footer>
 			<div class="top-nav-content">
-				<p>© Copyright by Moritza. All rights reserved</p>
-				<a href="#" class="footer-links">Back to Top</a>
-				<p class="vertical-separator">|</p>
-				<a href="#" class="footer-links">Contact Us</a>
-				<p class="vertical-separator">|</p>
-				<a href="#" class="footer-links">Terms and Conditions</a>
-				<p class="vertical-separator">|</p>
-				<a href="#" class="footer-links">Privacy Policy</a>
-				<p class="vertical-separator">|</p>
-				<a href="#" class="footer-links">Log in</a>
+				<p id="copyright">© Copyright by Jagoda. All rights reserved</p>
+				<ul>
+					<li>
+						<a href="#">Back to Top</a>
+						<p class="vertical-separator">|</p>
+					</li>
+					<li>
+						<a href="#">Contact Us</a>
+						<p class="vertical-separator">|</p>
+					</li>
+					<li>
+						<a href="#">Terms and Conditions</a>
+						<p class="vertical-separator">|</p>
+					</li>
+					<li>
+						<a href="#">Privacy Policy</a>
+						<p class="vertical-separator">|</p>
+					</li>
+					<li>
+						<a href="#" class="footer-links">Log in</a>
+					</li>				
+				</ul>				
 			</div>
 		</footer>
 	</body>
